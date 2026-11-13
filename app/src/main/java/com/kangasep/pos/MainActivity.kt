@@ -78,7 +78,7 @@ class MainActivity : Activity() {
         header.addView(label("KA  Cimol Bojot Kang Asep", 23, Color.WHITE, true))
         header.addView(label("Pesanan • Dibawa pulang", 14, Color.WHITE, false))
         val search = EditText(this).apply {
-            hint = "Cari menu..."; singleLine = true; textSize = 16f
+            hint = "Cari menu..."; isSingleLine = true; textSize = 16f
             setPadding(16, 8, 16, 8); setBackground(round(Color.WHITE, 18))
             setText(keyword)
         }
